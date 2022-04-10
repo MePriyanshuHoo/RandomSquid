@@ -5,12 +5,29 @@ body {
 a {
   text-decoration: none;
 }
+header {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#menu {
+  width: 60%;
+  position: absolute;
+  right: 20px;
+  top : 25px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #menu a {
   color: rgb(246, 215, 250);
 }
 #menu a:hover {
   color: rgb(239, 117, 255);
-  font-size: 103%;
+  font-size: 104%;
 }
 h1 {
   margin: 0px;
@@ -19,9 +36,29 @@ h1 {
 h1:hover {
   color: rgb(201, 214, 243);
 }
+main{
+  margin-top: 14vh;
+  position: relative;
+}
+main>img{
+  height: 82vh;
+  position: absolute;
+  top:0px;
+  right: 50px;
+}
+
 footer {
-  padding: 1px 10px 10px;
+  position: absolute;
+  padding: 1px 70px 20px 30px;
   margin: 0%;
   border-radius: 10px;
   background-color: rgb(60, 60, 60);
+  box-shadow: 5px 5px 5px 2px rgb(82, 82, 82);
 }
+footer h7{
+  align-content: center;
+  margin : 0px 0px 0px 15px ;
+} 
+footer img{
+  width: 20px;
+} 
