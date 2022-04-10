@@ -12,7 +12,7 @@ header {
   justify-content: space-between;
 }
 #menu {
-  width: 60%;
+  width: 50%;
   position: absolute;
   right: 20px;
   top : 25px;
@@ -37,8 +37,14 @@ h1:hover {
   color: rgb(201, 214, 243);
 }
 main{
+  display: flex;
+  justify-content: space-between;
   margin-top: 14vh;
   position: relative;
+}
+main div{
+  position: relative;
+  left: 5%;
 }
 main>img{
   height: 82vh;
@@ -49,11 +55,16 @@ main>img{
 
 footer {
   position: absolute;
+  left: 5%;
+  bottom: 5%;
   padding: 1px 70px 20px 30px;
   margin: 0%;
   border-radius: 10px;
   background-color: rgb(60, 60, 60);
   box-shadow: 5px 5px 5px 2px rgb(82, 82, 82);
+}
+footer a{
+  color: rgb(179, 217, 228) ;
 }
 footer h7{
   align-content: center;
